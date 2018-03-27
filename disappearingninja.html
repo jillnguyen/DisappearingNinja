@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("img").click(function(){
+                $(this).hide();
+            })
+            $("#reset").click(function(){
+                $("img").show();
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>Click a photo to make it disappear</h1>
+    <img src="http://www.myproana.com/uploads/gallery/album_58682/gallery_112117_58682_60632.jpg">
+    <img src="http://www.pawculture.com/uploads/versions/russianblue---x----670-440x---.jpg">
+    <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/28378198_180443399349729_1784309258210930176_n.jpg?_nc_cat=0&oh=83eb24e458c03153876439f06aba9ab7&oe=5B38DFBE">
+    <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/26993364_166385984088804_1325777778883386887_n.jpg?oh=d5c3ded70a65df149f51d15732368857&oe=5B2985B1">
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-07/10/15/campaign_images/webdr14/secrets-doggy-daycare-employees-will-never-tell-y-2-4088-1436557195-1_dblbig.jpg">
+    <img src="https://d3i6fh83elv35t.cloudfront.net/static/2017/11/4934015500_711809ea1e_b-1024x747.jpg">
+    <img src="https://www.iaspaper.net/wp-content/uploads/2017/10/Rabbit-Essay.jpg">
+    <img src="https://i.ytimg.com/vi/Vl3wGTu1cy8/maxresdefault.jpg">
+    <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350">
+    <button id="reset">Reset Button</button>   
+</body>
+</html>
